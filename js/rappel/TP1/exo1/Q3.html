@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice1-Q3</title>
+</head>
+<body>
+    <script>
+        let num1 = prompt("Veuillez saisir un nombre");
+        let num2 = prompt("Veuillez donner un autre nombre.");
+
+        if(isNaN(num1) || isNaN(num2)){
+            alert("Donnees invalides!");
+        }else{
+            num1 = Number(num1);
+            num2 = parseInt(num2);
+            alert(`La somme est ${num1 + num2}`);
+        }
+    </script>
+</body>
+</html>

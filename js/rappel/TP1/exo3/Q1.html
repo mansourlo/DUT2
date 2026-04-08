@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice3-Q1</title>
+    <script src="./Q1.js"></script>
+    <style>
+        label{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        fieldset{
+            width:fit-content;
+        }
+
+        input{
+            margin:0 5px;
+        }
+
+        #btn{
+            position: relative;
+            left: 21%;
+        }
+
+    </style>
+</head>
+<body>
+    <form> 
+        <fieldset>
+            <legend> Identification </legend>
+            
+            <label for="nom">Nom
+                <input type="text" id="nom">
+            </label>
+
+            <label for="prenom">Prénom
+                <input type="text" id="prenom">
+            </label>
+
+            <label for="age">Age
+                <input type="number" id="age">
+            </label>
+            
+            <input id="btn" type="button" onclick="getValue()" value="Enregistrer">
+
+        </fieldset>
+    </form>
+
+    <script>
+function recupererDonnees() {
+    const nom = document.getElementById("nom").value;
+    const email = document.getElementById("age").value;
+    
+   // alert("Nom:", nom);
+    //alert("Email:", email);
+}
+</script>
+</body>
+</html>

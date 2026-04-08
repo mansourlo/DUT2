@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice2-Q3</title>
+    <style>
+        label{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        fieldset{
+            width:fit-content;
+        }
+
+        input{
+            margin:0 5px;
+        }
+
+        #btn{
+            position: relative;
+            left: 21%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Formulaire</h1>
+    <script>
+        document.write("<fieldset>");
+            document.write("<legend>Identification</legend>");
+            document.write("<form>");
+                document.write("<label>");
+                    document.write("Nom");
+                    document.write("<input type='text'>");
+                document.write("</label>");
+
+                document.write("<label>");
+                    document.write("Prenom");
+                    document.write("<input type='text'>");
+                document.write("</label>");
+
+                document.write("<label>");
+                    document.write("Age");
+                    document.write("<input type='text'>");
+                document.write("</label>");
+
+                document.write("<input id='btn' type='button' value='Enregistrer'>");
+                
+            document.write("</form>");
+        document.write("</fieldset>");
+
+    </script>
+</body>
+</html>

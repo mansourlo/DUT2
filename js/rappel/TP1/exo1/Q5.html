@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice1-Q5</title>
+</head>
+<body>
+    <script>
+        let login, mdp;
+
+        do{
+            login = prompt("Entrez votre login");
+            mdp = prompt("Entrez le mot de passe");
+        }while((login !== "administrateur") && (mdp !== "passer"));
+
+        alert("Bienvenue dans la page d’administration");
+    </script>
+</body>
+</html>
