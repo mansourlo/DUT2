@@ -1,5 +1,3 @@
-** start of main.py **
-
 def number_pattern(n):
     if not isinstance(n, int):
         return 'Argument must be an integer value.'
@@ -14,6 +12,3 @@ def number_pattern(n):
     return liste[0:len(liste)-1]
 
 print(number_pattern(4))
-
-** end of main.py **
-
